@@ -1,0 +1,27 @@
+{
+  "name": "jauth",
+  "version": "1.0.0",
+  "description": "Jack's Open Source API Authentication Library",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackwhelan/jauth.git"
+  },
+  "author": "Jack Whelan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackwhelan/jauth/issues"
+  },
+  "homepage": "https://github.com/jackwhelan/jauth#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
